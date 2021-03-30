@@ -1,0 +1,1177 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&display=swap');
+/*color scheme*/
+/*
+-main
+#ACC491
+#DEF7C3
+
+-lighter
+#eef9d5
+
+-blue
+#005B69
+
+agca-dark: #23395B;
+agca-gray: #BEC5D0;
+agca-gray-secondary: #C5CECC;
+*/
+
+.tools_page_ag-custom-admin-plugin #agca_form {
+    --agca-color-dark: #23395B;
+    --agca-color-gray: #BEC5D0;
+    --agca-color-secondary: #C5CECC;
+    --agca-color-green: #45cc45;
+}
+.agca-clear {
+    clear: both;
+}
+
+.agca-tip {
+    padding-left: 20px;
+}
+
+
+/* WebKit and Opera browsers */
+@-webkit-keyframes cusmin-spinner {
+    from { -webkit-transform: rotateY(0deg);    }
+    to   { -webkit-transform: rotateY(-360deg); }
+}
+
+/* all other browsers */
+@keyframes cusmin-spinner {
+    from {
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    to {
+        -moz-transform: rotateY(-360deg);
+        -ms-transform: rotateY(-360deg);
+        transform: rotateY(-360deg);
+    }
+}
+
+.cusmin-spinner {
+    -webkit-animation-name: cusmin-spinner;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1.5s;
+
+    animation-name: cusmin-spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+h1#agca-title {
+    color: #23395B;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+h1#agca-title .title{
+    float:left;
+    padding: 10px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 300;
+}
+h1#agca-title img{
+    width: 200px;
+    float: left;
+    margin-top: -3px;
+    margin-right: 20px;
+}
+h1#agca-title .version{
+    font-size: 15px;
+    margin-top: 12px;
+    font-family: 'Comfortaa', sans-serif;
+    display: inline-block;
+}
+
+table .agca-tip {
+    padding-left: 10px;
+}
+
+#ag_main_menu {
+    display: block;
+    height: 34px;
+    border-bottom: 5px solid #23395B;
+    margin-top: 10px;
+}
+
+#ag_main_menu .dashicons-before:before {
+    margin-right: 6px;
+    transform: translateY(-1px);
+}
+#ag_main_menu .agca-invert-icon:before {
+    transform: rotate3d(0, 0, 1, 180deg) translate(-1px, 2px);
+}
+#ag_main_menu li a:hover{
+    color: #fff;
+}
+#ag_main_menu li.upgrade{
+    border-bottom: 5px solid #23395B;
+    border-left: 7px solid #23395B;
+    background-color: #f4f7fb;
+    border-top-right-radius: 10px;
+    padding-bottom: 8px;
+
+}
+#ag_main_menu li.upgrade:hover{
+    background: #fff !important;
+}
+#ag_main_menu li.upgrade a{
+    color: #23395B;
+    display: inline-block;
+    padding-left: 20px;
+    font-weight:bolder;
+}
+#ag_main_menu li.upgrade:hover a{
+    color:#23395B;
+    transform: scale(1.1);
+}
+
+#ag_main_menu li.upgrade img{
+    width: 20px;
+    position: absolute;
+    margin-top: -1px;
+    margin-left: -25px;
+}
+
+.ag_section {
+    background: transparent;
+}
+
+#agca_form #section-cusmin {
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid #999;
+    background: #fff;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #999;
+}
+
+
+#ag_main_menu li {
+    display: block;
+    background-color: #23395B;
+    float: left;
+    color: #fff;
+    padding: 15px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 8px solid #23395B;
+    transition: all .1s ease-in;
+}
+
+#ag_main_menu li.selected {
+    background-color: #C5CECC;
+    color: #23395B;
+    cursor: default;
+}
+#ag_main_menu li.selected a{
+    color: #23395B;
+}
+
+#ag_main_menu li.normal:hover {
+    background-color: #BEC5D0;
+}
+
+#ag_main_menu li.normal:hover a {
+    color: #23395B;
+}
+#ag_main_menu a:focus {
+    outline: none;
+    border: 0;
+}
+
+#ag_main_menu li a {
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+    border: 0;
+}
+
+.ag_table_heading {
+    background: none;
+    display: block;
+    height: 25px;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.ag_table_heading h3 {
+    color: #23395B;
+    background: #efefef;
+    margin-left: -15px;
+    padding: 5px 15px;
+    border: none;
+    border: 3px #23395B solid;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.ag_table_major_options {
+    width: 500px;
+    margin-bottom: 2px;
+}
+
+#agca_form .form-table .ag_table_major_options td {
+}
+
+div#AGToolTipDiv {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    height: auto;
+    border: none !important;
+    box-shadow: 0px 8px 14px rgba(35, 57, 91, 0.5);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    background: rgba(197, 206, 204, 0.5) !important;
+    color: #23395B !important;
+    display: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+td.ag_admin_menu_parent {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+td.ag_admin_menu_parent:hover {
+    background-color: #ddd;
+}
+
+#ag_edit_adminmenu .agca-checkbox-box:before {
+    filter: brightness(85%);
+    padding-top: 3px;
+}
+
+#ag_edit_adminmenu .agca-checkbox-box-checked:before {
+    padding-top: 3px;
+}
+
+#ag_edit_adminmenu h3 {
+    color: #ffffff;
+}
+
+
+
+#ag_edit_adminmenu tr {
+    margin: 0;
+    padding: 0;
+    background-color: #E8FAE8;
+}
+
+#ag_edit_adminmenu td.ag_admin_menu_child {
+    margin: 0;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#ag_edit_adminmenu th h2 {
+    color: #fff;
+}
+
+#ag_edit_adminmenu a {
+    text-decoration: none;
+    color: #444;
+}
+
+.noclass {
+    display: none;
+}
+
+#agca_footer_support_info {
+    font-size: 12px;
+    font-weight: bold;
+    background: #acc491;
+    color: #ffffff;
+    border: none;
+    padding: 20px;
+}
+
+#agca_footer_support_info a {
+    color: #005b69;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#agca_news {
+    height: 20px;
+    clear: both;
+    position: absolute;
+    margin-top: -22px;
+    color: #005B69;
+    display: none;
+}
+
+#agca_news a {
+    color: #005B69;
+}
+
+#agca_advertising {
+    display: flex;
+    height: auto;
+    padding: 15px;
+    margin: 0;
+    width: auto;
+    text-decoration: none;
+    transition: all .2s;
+    color: #BEC5D0;
+    clear: both;
+}
+#agca_advertising,
+#agca_advertising:visited,
+#agca_advertising:focus {
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px var(--agca-color-gray);
+}
+
+#agca_advertising .unlock-features {
+    opacity: 0;
+    align-self: center;
+    justify-self: center;
+    transition: all .3s;
+}
+
+#agca_advertising .unlock-features:before {
+    content: "\f528";
+    font-family: 'dashicons';
+    transform: translateX(-4px);
+    display: inline-block;
+}
+
+#agca_advertising .unlock-features:hover {
+    color: #45cc45;
+}
+#agca_advertising .unlock-features:hover:before {
+    content: "\f345";
+}
+
+#agca_advertising .unlock-features:hover:after {
+    content: "\f341";
+    font-family: 'dashicons';
+    transform: translate(4px, 2px);
+    display: inline-block;
+}
+
+#agca_advertising:hover {
+    color: #23395B;
+    box-shadow: 1px 1px 8px #a1a1a1;
+}
+#agca_advertising:hover .unlock-features {
+    opacity: 1;
+}
+
+
+#agca_advertising .cusmin-logo {
+    width: 65px;
+    padding-right: 30px;
+}
+
+#agca_advertising ul {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+    width: calc(100% - 320px);
+    max-width: 1200px;
+    grid-column-gap: 35px;
+    padding-right: 5px;
+}
+
+#agca_advertising > ul > li {
+    margin: 0;
+    cursor: pointer;
+    align-self: center;
+}
+#agca_advertising > ul > li:before {
+    content: "\f147";
+    display: inline-block;
+    font-family: dashicons;
+    font-size: 22px;
+    transform: translate(-4px, 6px);
+}
+#agca_advertising > ul > li:hover:before {
+    color: var(--agca-color-green);
+}
+#agca_form .section_title {
+    font-weight: bold;
+    background: transparent;
+    border-bottom-right-radius: 15px;
+    color: #23395B;
+    float: left;
+    font-size: 40px;
+    padding: 20px 11px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+    width: 50%;
+    display: block;
+    margin-top: 40px;
+}
+
+#agca_form select{
+    border:3px #23395B solid;
+    color: #23395B;
+    display: inline-block;
+    font-weight: bold;
+    height: 35px !important;
+    line-height: 1.5;
+    min-width: 300px;
+    padding-left: 7px !important;
+}
+#agca_form a{
+    font-weight: bold;
+    color: #23395B;
+    transition: all .3s;
+}
+#agca_form p a{
+    display: inline-block;
+}
+#agca_form p a:hover{
+    color: var(--agca-color-secondary);
+    filter: brightness(55%);
+    transform: scale(1.05);
+}
+#agca_form h2.section_title {
+
+}
+
+#agca_form h2.section_title {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 1em;
+}
+
+#agca_form h2.section_title {
+    color: #23395B;
+}
+
+/* Don't show shadows when selecting text */
+#agca_form h2.section_title::-moz-selection {
+    background: #5af;
+    color: #fff;
+    text-shadow: none;
+}
+
+#agca_form h2.section_title::selection {
+    background: #5af;
+    color: #fff;
+    text-shadow: none;
+}
+
+.ag-custom-button {
+
+    /* margin-bottom:-4px !important;*/
+}
+
+#sidebar_adminmenu_logo {
+    margin-bottom: -33px;
+    min-height: 28px;
+    cursor: pointer;
+}
+
+.agcaMenuEditorPlusMinus .plus {
+    padding-right: 4px;
+    display: inline;
+}
+
+.agcaMenuEditorPlusMinus .minus {
+    padding-right: 4px;
+    display: none;
+}
+
+.agcaMenuEditorPlusMinus .dashicons:before {
+    font-size: 15px;
+    line-height: 22px;
+    display: inline-block;
+    transform: translateY(-2px);
+}
+
+.agcaMenuEditorPlusMinus {
+    float: left;
+    margin-right: 18px;
+    cursor: default;
+    width: 10px;
+    color: var(--agca-color-dark);
+    margin-top: -19px;
+    padding-top: 9px;
+    pointer-events: none;
+}
+
+/*#agca_form input.agca_button,#agca_form #ag_add_adminmenu button{
+    padding: 3px 10px;
+    background-color:#ffffff;
+}    */
+#agca_form .agca_button.clear span{
+    margin-top: 5px;
+}
+#agca_form .agca_button.clear span:before {
+    color: #23395B;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#agca_form .agca_button.clear span:hover:before {
+    color: red;
+}
+
+#agca_form input[type=button]:not(.ed_button), button {
+    background: #23395B;
+    border: 1px solid #23395B;
+    border-radius: 3px;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    transition: all .3s;
+
+}
+
+#agca_form input[type=button]:not(.ed_button):hover {
+    background-color: var(--agca-color-secondary);
+    border: 1px solid var(--agca-color-secondary);;
+    color: var(--agca-color-dark);
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 4px #444;
+}
+
+#agca_form input[type=text] {
+    height: 28px;
+    width: 400px;
+    border: 3px solid #eee;
+    box-shadow: none;
+    padding: 15px 10px;
+    background: #f5f2f2;
+    color: #816c64;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all .3s;
+    display: inline-block;
+}
+
+#agca_form input[type=text]:hover{
+    transform: scale(1.01);
+}
+
+#agca_form .color input[type=text]:hover{
+    transform: scale(1.05);
+}
+
+#agca_form input.color_picker {
+    width: 88px;
+}
+
+#agca_form input.color_picker:placeholder-shown + .pick_color_button + .pick_color_button_clear{
+    display: none !important;
+}
+
+#agca_form input[type=text]{
+    background-color: #fff;
+    color: var(--agca-color-dark);
+    border: 3px solid var(--agca-color-gray);
+}
+
+#agca_form input[type=text]:hover {
+    border-color: var(--agca-color-secondary);
+}
+
+#agca_form input[type=text]:focus{
+    border-color: var(--agca-color-dark);
+}
+
+#agca_form textarea:not(.wp-editor-area) {
+    width: 400px;
+    background: #fff;
+    color: var(--agca-color-dark);
+    border: 3px solid var(--agca-color-gray);
+    font-weight: bold;
+    padding: 5px;
+    transition: all .3s;
+}
+#agca_form textarea.one-line{
+    height: 35px;
+}
+
+#agca_form textarea.wp-editor-area {
+    width: 100%;
+}
+
+#agca_form textarea:focus {
+    border-color: var(--agca-color-dark);
+}
+
+#agca_form #ag_edit_adminmenu tr td{
+    line-height: 0;
+}
+
+#agca_form #ag_add_adminmenu input[type=text] {
+    width: 300px;
+}
+#agca_form #ag_add_adminmenu input[type=button] {
+    padding: 9px;
+}
+
+
+#agca_form #ag_add_adminmenu .button_edit span,
+#agca_form #ag_add_adminmenu .button_remove span {
+    font-size: 25px;
+    color: #23395B;
+}
+
+#agca_form #ag_add_adminmenu .button_edit:hover span {
+    color: var(--agca-color-secondary);
+}
+
+#agca_form #ag_add_adminmenu .button_remove:hover span {
+    color: red;
+}
+
+#agca_form #temporary_button_edit {
+    padding-top: 20px;
+}
+
+#agca_form input#save_plugin_settings {
+    background: var(--agca-color-dark);
+    font-weight: bold;
+    height: 39px;
+    padding: 4px;
+    width: 100%;
+    border: 1px solid var(--agca-color-dark) !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    font-size: 16px;
+    color: #fff !important;
+    transition: all .3s;
+}
+
+#agca_form input#save_plugin_settings:hover {
+    background-color: var(--agca-color-secondary) !important;
+    border-color: var(--agca-color-secondary) !important;
+    color: var(--agca-color-dark) !important;
+    letter-spacing: 0.1em;
+    box-shadow: 0px 0px 3px #444 !important;
+    transform: none;
+}
+
+#agca_form input#save_plugin_settings[type="button"]:hover {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+/*editor style fix*/
+#agca_form .agca_editor input[type="button"]:not(.ed_button), button {
+    color: black;
+}
+
+#agca_form .agca_editor textarea {
+    width: 100%;
+}
+
+.agca_editor {
+    width: 600px;
+}
+
+
+.agca_logout_button {
+    background: none repeat scroll 0 0 #dddddd;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 0 0 3px 3px;
+    border: 1px solid #BBBBBB;
+    border-top: none;
+    margin-left: 6px;
+    margin-right: 20px;
+    padding: 6px 10px;
+}
+
+#ag_add_adminmenu button {
+    border: medium none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 6px 9px;
+    min-width: 150px;
+}
+
+.wp-admin.folded #sidebar_adminmenu_logo {
+    display: none;
+}
+
+.agca-selectbox {
+    width: 405px;
+    padding: 4px !important;
+    height: 28px !important;
+}
+
+.agca-selectbox:hover {
+    background-color: #eee;
+}
+
+#agca_form .agca-checkbox-box {
+    cursor: pointer;
+    display: block;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    float: left;
+}
+
+#agca_form .agca-checkbox-box:before {
+    content: "●";
+    font-size: 45px;
+    line-height: 25px;
+    color: #BEC5D0;
+    display: block;
+    transition: all .3s;
+}
+
+#agca_form .agca-checkbox-box-checked {
+    cursor: pointer;
+    display: block;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    float: left;
+}
+
+#agca_form .agca-checkbox-box-checked:before {
+    content: "●";
+    font-size: 45px;
+    line-height: 25px;
+    color: #23395B;
+    display:block;
+    transform: scale(1.05) !important;
+}
+
+#agca_form .agca-checkbox-box-checked.visibility:before {
+}
+
+#agca_form .agca-checkbox-box-checked:hover:before,
+#agca_form .agca-checkbox-box:hover:before {
+    filter: brightness(85%);
+    transform: scale(1.2);
+}
+
+#agca_form label {
+    font-size: 15px;
+    color: var(--agca-color-dark);
+}
+
+#agca_form .form-table th {
+    width: 350px;
+    padding: 10px;
+}
+#agca_form .form-table th label{
+    font-weight: normal;
+    color: #23395B;
+    display: inline-block;
+}
+#agca_form .form-table th label:hover {
+    transform: scale(1.01);
+}
+#agca_form .form-table td {
+    padding: 10px;
+}
+#agca_form .form-table td p{
+    color: var(--agca-color-secondary);
+    filter: brightness(45%);
+}
+.ag_admin_menu_parent .agca-checkbox-box-checked, .ag_admin_menu_parent .agca-checkbox-box {
+    margin-top: -15px;
+}
+
+#agca_form input[type=radio] {
+    display: block;
+    float: left;
+}
+
+#agca_form .agca-radiobox {
+    cursor: pointer;
+    display: block;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    float: left;
+}
+
+#agca_form .agca-radio-text {
+    display: block;
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 4px 25px 4px 4px;
+    cursor: pointer;
+}
+
+#agca_form .agca-radio-text.on {
+    color: #ccc;
+}
+
+#agca_form .agca-radio-text.off {
+    color: #ccc;
+}
+
+#agca_form .agca-radiobox:before {
+    font-family: Dashicons;
+    content: "\f159";
+    font-size: 30px;
+    line-height: 30px;
+}
+
+#agca_form .agca-radiobox.checked:before {
+    content: "\f502";
+}
+
+#agca_form .agca-radiobox.checked[value=off]:before {
+    content: "\f153";
+}
+
+#agca_form .agca-radiobox[value=on]:before {
+    color: #ACC491;
+}
+
+#agca_form .agca-radiobox[value=off]:before {
+    color: #ccc;
+}
+
+.agca-feedback-and-support {
+    font-weight: bold;
+}
+
+.agca-feedback-and-support a {
+    border: medium none;
+    border-radius: 4px;
+    color: #FFFFFF !important;
+    padding: 6px 20px;
+    padding-top: 10px;
+    min-width: 280px;
+    background: #23395B;
+    display: inline-block;
+    font-weight: normal !important;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.agca-feedback-and-support a span {
+    transform: translate(0, -2px);
+}
+
+.agca-feedback-and-support .upgrade a{
+    background: #f9f9f9;
+    color: #23395B !important;
+    float: left;
+    border: 1px solid #23395B;
+    padding: 5px 30px 5px 9px;
+}
+
+.agca-feedback-and-support .upgrade a:hover .cusmin-spinner {
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.agca-feedback-and-support .upgrade span{
+    display: block;
+    float: left;
+    padding: 25px;
+    padding-left: 0;
+}
+.agca-feedback-and-support .upgrade img{
+    width: 50px;
+    height: auto;
+    float: left;
+    display: inline-block;
+    margin-left: -5px;
+    padding: 10px;
+}
+
+.agca-feedback-and-support a:hover {
+    background-color: var(--agca-color-secondary);
+    color: var(--agca-color-dark) !important;
+}
+.agca-feedback-and-support .upgrade a:hover{
+    background-color: #fff;
+    color: #23395B;
+    box-shadow: 1px 1px 1px #ddd;
+}
+#agca-your-feedback {
+    float: right;
+    width: 160px;
+    margin-top: -10px;
+    display: none;
+}
+
+#agca-your-feedback .dashicons {
+    font-size: 24px;
+    padding: 0 3px;
+    line-height: 18px;
+}
+
+#agca-your-feedback a {
+    text-decoration: none;
+}
+
+#agca-your-feedback a {
+    text-decoration: none;
+}
+
+#agca-your-feedback .feedback.negative {
+    color: #f08080;
+}
+
+#agca-your-feedback .feedback.negative:hover {
+    color: red;
+}
+
+#agca-your-feedback .feedback.positive {
+    color: #ACC491;
+}
+
+#agca-your-feedback .feedback.positive:hover {
+    color: green;
+}
+
+#agca_donate_button {
+    margin-left: 5px;
+    margin-top: 3px;
+    display: none;
+}
+#agca_donate_button img{
+    width: 125px;
+    margin-top: -8px;
+}
+
+.agca-donate-btn {
+    background: #139a13;
+    color: #fff;
+    padding: 0 7px;
+    border-radius: 3px;
+    font-size: 11px;
+    text-decoration: none;
+    transform: translateY(-10px);
+    display: inline-block;
+    font-weight: bold;
+    border: 1px solid #139a13;
+    transition: all .3s;
+}
+
+.agca-donate-btn:hover {
+    border-color: var(--agca-color-dark);
+    color: var(--agca-color-dark);
+    background: transparent;
+}
+
+.agca-donate-btn:hover .heart {
+    color: red;
+}
+
+#section_ag_colorizer_settings .color input {
+    border-radius: 5px;
+    border-color: var(--agca-color-dark);
+}
+
+#section_ag_colorizer_settings .color input:hover {
+    border-color: var(--agca-color-dark);
+}
+
+#section_ag_colorizer_settings .color .agca_button {
+    cursor: pointer;
+}
+
+#section_ag_colorizer_settings .color .agca_button span {
+    font-size: 35px;
+    padding: 0 6px;
+    color: #23395B;
+}
+
+#section_ag_colorizer_settings .color .agca_button span:hover {
+    color: var(--agca-color-secondary);
+}
+
+#section_ag_colorizer_settings .color .agca_button span.clear {
+    color: #23395B;
+}
+
+#section_ag_colorizer_settings .color .agca_button span.clear:hover {
+    color: red;
+}
+/*Hide dashboard empty box containers*/
+#dashboard-widgets div.empty-container{
+    display: none;
+}
+
+.tools_page_ag-custom-admin-plugin #wpwrap{
+    background: #fff;
+
+}
+.tools_page_ag-custom-admin-plugin #agca_form{
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 300;
+}
+
+.tools_page_ag-custom-admin-plugin #agca_form *:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#agca_form #ag_edit_adminmenu tr.top td{
+    background: var(--agca-color-gray);
+    filter: brightness(1.1);
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+#agca_form #ag_edit_adminmenu tr.top td.ag_admin_menu_parent2{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#agca_form #ag_edit_adminmenu input[type=text] {
+    width: 100%;
+}
+#agca_form #ag_edit_adminmenu tr.top:nth-child(odd) td{
+    background: var(--agca-color-secondary);
+}
+#agca_form #ag_edit_adminmenu tr.sub {
+    transition: all .3s;
+}
+#agca_form #ag_edit_adminmenu tr.sub td{
+    background: #fff;
+    padding: 0;
+}
+#agca_form #ag_edit_adminmenu tr.sub td div a{
+    padding: 17px;
+    display: inline-block;
+}
+
+#agca_form #ag_edit_adminmenu tr:first-child td{
+    background: #23395B;
+}
+
+#agca_form #import_file_area .agca_button{
+    margin-bottom: 5px;
+}
+
+.plugins-php .wp-list-table.plugins tr[data-slug=ag-custom-admin].active{
+    background: radial-gradient(circle, #899492 20%, #23395B 75%);
+    background-size: 200%;
+    box-shadow: 14px 1px 10px black inset;
+    transition: all .3s ease-in-out;
+}
+.plugins-php .wp-list-table.plugins tr[data-slug=ag-custom-admin].active:hover{
+    box-shadow: 14px 1px 2px black inset;
+}
+
+.plugins-php .wp-list-table.plugins tr[data-slug=ag-custom-admin].active td{
+    background: transparent;
+    transition: transform .3s ease-out;
+    text-shadow: 2px 4px 2px #223859;
+    color: #fdfeff;
+}
+.plugins-php .wp-list-table.plugins tr[data-slug=ag-custom-admin].active:hover td{
+    text-shadow: 1px 2px 2px #223859;
+}
+
+.plugins-php .wp-list-table.plugins tr[data-slug=ag-custom-admin].active td a{
+    color: #fdfeff;
+    font-weight: bold;
+    transition: all .3s ease-in;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 0;
+    display: inline-block;
+}
+
+.plugins-php .wp-list-table.plugins tr[data-slug=ag-custom-admin].active:not(#ag-custom-admin-update) td a:hover{
+    transform: scale(1.3);
+}
+
+.plugins-php .wp-list-table.plugins tr[data-slug=ag-custom-admin].active td.column-description a:hover{
+    transform: scaleY(1.1) scaleX(1) !important;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid;
+    padding-bottom: 3px;
+}
+
+.plugins-php .wp-list-table.plugins tr[data-slug=ag-custom-admin].active th.check-column {
+    border-left-color: #fdfeff;
+    background-color: #23395B;
+}
+
+.plugins-php .wp-list-table.plugins tr[data-slug=ag-custom-admin].active td.desc p{
+    color: #fdfeff;
+}
+
+.plugins-php .wp-list-table.plugins tr[data-slug=ag-custom-admin].active td.plugin-title:before{
+    display: block;
+    content: "";
+    background: url(../images/agca-logo.svg) no-repeat;
+    width: 100%;
+    max-width: 140px;
+    height: 53px;
+    background-size: contain;
+    filter: brightness(100) drop-shadow(0px 0px 2px #fff) ;
+    transition: transform .3s ease-in-out;
+}
+.plugins-php .wp-list-table.plugins tr[data-slug=ag-custom-admin].active:hover td.plugin-title:before{
+    transform: scale(1.1);
+}
+.plugins-php .wp-list-table.plugins tr[data-slug=ag-custom-admin].active .plugin-version-author-uri a:last-child:after {
+    content: "♥";
+    opacity: 0;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding-left: 3px;
+    transition: all .3s ease-in;
+}
+.plugins-php .wp-list-table.plugins tr[data-slug=ag-custom-admin].active .plugin-version-author-uri a:last-child:hover:after {
+    opacity: 1;
+}
+
+
+.plugins-php #ag-custom-admin-update {
+    box-shadow: none;
+}
+.plugins-php #ag-custom-admin-update td{
+    border-left-color: #fff;
+}
+.plugins-php #ag-custom-admin-update .notice,
+.plugins-php #ag-custom-admin-update .update-message{
+    margin-top: 14px;
+    background: rgba(255,255,255, 0.5);
+    border-left-color: #fff;
+    text-shadow: none;
+}
+.plugins-php #ag-custom-admin-update .notice p {
+    font-weight: bold;
+}
+.plugins-php #ag-custom-admin-update .notice p:before,
+.plugins-php #ag-custom-admin-update .update-message p:before {
+    color: #fff;
+}

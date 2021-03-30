@@ -1,0 +1,590 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-13 19:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.2"
+
+#: vnex-extra.php:70
+msgid " WP Extra Option "
+msgstr ""
+
+#: vnex-extra.php:526
+msgid "\"Do you want to clear all? \""
+msgstr ""
+
+#: vnex-extra.php:253
+msgid "Add .html to Page"
+msgstr ""
+
+#: vnex-extra.php:355
+msgid ""
+"Add <code>[signature]</code> or button <span class='dashicons dashicons-"
+"heart'></span> to post / page"
+msgstr ""
+
+#: vnex-extra.php:274
+msgid "Add _blank"
+msgstr ""
+
+#: vnex-extra.php:432
+msgid "Add custom CSS here"
+msgstr ""
+
+#: vnex-extra.php:440
+msgid "Add custom CSS here for mobile view"
+msgstr ""
+
+#: vnex-extra.php:436
+msgid "Add custom CSS here for tablets and mobile"
+msgstr ""
+
+#: vnex-extra.php:421
+msgid ""
+"Add custom scripts inside HEAD tag. You need to have a SCRIPT tag around "
+"scripts."
+msgstr ""
+
+#: vnex-extra.php:423
+msgid ""
+"Add custom scripts you might want to be loaded in the footer of your website."
+" You need to have a SCRIPT tag around scripts."
+msgstr ""
+
+#: vnex-extra.php:275
+msgid "Add nofollow & _blank"
+msgstr ""
+
+#: vnex-extra.php:271
+msgid "Add nofollow & _blank ?"
+msgstr ""
+
+#: vnex-extra.php:346
+msgid "Add Notice to Dashboard"
+msgstr ""
+
+#: vnex-extra.php:271
+msgid ""
+"Add rel=\"nofollow\" and target=\"_blank\" for external links permanently"
+msgstr ""
+
+#: vnex-extra.php:247 vnex-extra.php:362
+msgid "after \"Save Options\""
+msgstr ""
+
+#: vnex-extra.php:406
+msgid "All page"
+msgstr ""
+
+#: vnex-extra.php:432
+msgid "ALL SCREENS"
+msgstr ""
+
+#: vnex-extra.php:140
+msgid "Allow SVG"
+msgstr ""
+
+#: vnex-extra.php:308
+msgid "Appearance, Plugins, Tools, Settings"
+msgstr ""
+
+#: vnex-extra.php:172
+msgid "Auto Save Images"
+msgstr ""
+
+#: vnex-extra.php:479
+msgid "Auto Save Images (Woocommerce)"
+msgstr ""
+
+#: vnex-extra.php:214
+msgid "Automatically resizes uploaded images (JPEG, GIF, and PNG) "
+msgstr ""
+
+#: vnex-extra.php:201
+msgid "Automatically Set the Featured Image"
+msgstr ""
+
+#: vnex-extra.php:208
+msgid ""
+"Automatically set the image Title, Alt-Text, Caption & Description upload"
+msgstr ""
+
+#: vnex-extra.php:201
+msgid "Autoset Featured Image"
+msgstr ""
+
+#: vnex-extra.php:531
+msgid "Awesome !!!"
+msgstr ""
+
+#: vnex-extra.php:446
+msgid "Be Careful!"
+msgstr ""
+
+#: vnex-extra.php:320
+msgid "Change Admin footer?"
+msgstr ""
+
+#: vnex-extra.php:247
+msgid "Change Admin Login URL (wp-admin & wp-login.php)"
+msgstr ""
+
+#: vnex-extra.php:120
+msgid "Clone Post / Page"
+msgstr ""
+
+#: vnex-extra.php:127
+msgid "Clone Widgets"
+msgstr ""
+
+#: vnex-extra.php:362
+msgid "Contact Form 7"
+msgstr ""
+
+#: vnex-extra.php:475
+msgid "Contact me:"
+msgstr ""
+
+#: vnex-extra.php:120
+msgid ""
+"Creates post clone as a draft and redirects then to the edit post screen"
+msgstr ""
+
+#: vnex-extra.php:428
+msgid "Custom CSS"
+msgstr ""
+
+#: vnex-extra.php:193
+msgid "Custom Filename Structure"
+msgstr ""
+
+#: inc/login-slug.php:62
+msgid "Custom wp-login.php & wp-admin"
+msgstr ""
+
+#: vnex-extra.php:105
+msgid "Customize MCE editor (Ex: Justify, Font Size)"
+msgstr ""
+
+#: vnex-extra.php:438
+msgid "Default: 549px"
+msgstr ""
+
+#: vnex-extra.php:434
+msgid "Default: 849px"
+msgstr ""
+
+#: vnex-extra.php:226
+msgid "Default: <code>90%</code>"
+msgstr ""
+
+#: vnex-extra.php:482
+msgid "Delete & Duplicate menu item quickly"
+msgstr ""
+
+#: vnex-extra.php:152
+msgid "Disable & Remove Menu Comments"
+msgstr ""
+
+#: vnex-extra.php:456
+msgid "Disable back end access for non admin users?"
+msgstr ""
+
+#: vnex-extra.php:314
+msgid "Disable core & translate auto updating"
+msgstr ""
+
+#: vnex-extra.php:146
+msgid "Disable Emojis"
+msgstr ""
+
+#: vnex-extra.php:97
+msgid "Disable Gutenberg"
+msgstr ""
+
+#: vnex-extra.php:322
+msgid "Disable RSS Feeds and redirect to Homepage"
+msgstr ""
+
+#: vnex-extra.php:152
+msgid "Disable support for comments and trackbacks in post types"
+msgstr ""
+
+#: vnex-extra.php:328
+msgid "Disable XMLRPC"
+msgstr ""
+
+#: vnex-extra.php:97
+msgid "Disables the new Gutenberg Editor"
+msgstr ""
+
+#: vnex-extra.php:134
+msgid "Do Not Copy"
+msgstr ""
+
+#: vnex-extra.php:172
+msgid "Downloading automatically image from a post to gallery"
+msgstr ""
+
+#: vnex-extra.php:486
+msgid "Easily highlight your code on WordPress with WP PrismJS"
+msgstr ""
+
+#: vnex-extra.php:475
+msgid "Email: huynhsituan@gmail.com"
+msgstr ""
+
+#: vnex-extra.php:214
+msgid "Enable Auto Resize Image"
+msgstr ""
+
+#: vnex-extra.php:278
+msgid "Ex: abc.com/logo.jpg . Recommended: <code>84x84</code>"
+msgstr ""
+
+#: vnex-extra.php:405
+msgid "Exclude Login Form"
+msgstr ""
+
+#: vnex-extra.php:423
+msgid "FOOTER SCRIPTS"
+msgstr ""
+
+#: vnex-extra.php:220
+msgid "Force JPEG re-compression"
+msgstr ""
+
+#: vnex-extra.php:418
+msgid "Global Settings"
+msgstr ""
+
+#: vnex-extra.php:421
+msgid "HEADER SCRIPTS"
+msgstr ""
+
+#: vnex-extra.php:289
+msgid "Hide admin bar from front end for non admin?"
+msgstr ""
+
+#: vnex-extra.php:409
+msgid "Hide the badge reCAPTCHA on all pages except your contact page"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://cop.vn/plugin-wp-extra/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/wp-extra/"
+msgstr ""
+
+#: vnex-extra.php:535
+msgid ""
+"If you like the plugin, please buy me a beer 🍻 / coffee ☕️ to inspire me to "
+"develop further."
+msgstr ""
+
+#: vnex-extra.php:193
+msgid "Image Filename"
+msgstr ""
+
+#: vnex-extra.php:237
+msgid "Image Size in kilobytes"
+msgstr ""
+
+#: vnex-extra.php:226
+msgid "JPEG compression level"
+msgstr ""
+
+#: vnex-extra.php:237
+msgid "Limit Image Size in WordPress Media Library. Ex: 2000 = 2MB"
+msgstr ""
+
+#: vnex-extra.php:158
+msgid "Limit Post Revisions"
+msgstr ""
+
+#: vnex-extra.php:282
+msgid "Login Background or URL"
+msgstr ""
+
+#: vnex-extra.php:278
+msgid "Login Logo"
+msgstr ""
+
+#: inc/login-slug.php:68
+msgid "Login URL"
+msgstr ""
+
+#: vnex-extra.php:113
+msgid "Making it stick to the bottom of the page when scrolling down the page"
+msgstr ""
+
+#: vnex-extra.php:239
+msgid "Max image dimensions"
+msgstr ""
+
+#: vnex-extra.php:239
+msgid "Maximum width x height. Recommended values: <code>1000x1000</code>"
+msgstr ""
+
+#: vnex-extra.php:438
+msgid "MOBILE ONLY (MAX-WIDTH)"
+msgstr ""
+
+#: inc/login-slug.php:100
+msgid "Network Settings"
+msgstr ""
+
+#: vnex-extra-aio.php:587
+msgid "No post to clone has been supplied!"
+msgstr ""
+
+#: vnex-extra-aio.php:413
+msgid "Notice"
+msgstr ""
+
+#: vnex-extra.php:404
+msgid "Only Login Form"
+msgstr ""
+
+#: vnex-extra.php:182
+msgid "Only New Post"
+msgstr ""
+
+#: vnex-extra.php:462
+msgid "Only the current user - Login:"
+msgstr ""
+
+#: vnex-extra.php:59
+msgid ""
+"Options successfully saved. Please <a href='#' onClick='window.location."
+"reload()'>click refresh</a> this page."
+msgstr ""
+
+#: vnex-extra.php:450
+msgid "Paypal or Momo: 0907671900"
+msgstr ""
+
+#: vnex-extra.php:401
+msgid ""
+"Please setup <a href=\"admin.php?page=wpcf7-"
+"integration&service=recaptcha&action=setup\">Contact Form 7’s reCAPTCHA "
+"integration module </a> first, get required keys (reCAPTCHA V3) from Google "
+"and save them bellow."
+msgstr ""
+
+#: vnex-extra-aio.php:632
+msgid "Post creation failed, could not find original post: "
+msgstr ""
+
+#: vnex-extra.php:90
+msgid "Premium"
+msgstr ""
+
+#: vnex-extra.php:486
+msgid "PrismJS – Syntax Highlighter"
+msgstr ""
+
+#: vnex-extra.php:113
+msgid "Publish Button"
+msgstr ""
+
+#: vnex-extra.php:482
+msgid "Quick Remove Menu Item"
+msgstr ""
+
+#: vnex-extra.php:282
+msgid "Random"
+msgstr ""
+
+#: vnex-extra.php:282
+msgid "Random & Blur"
+msgstr ""
+
+#: vnex-extra.php:398
+msgid "reCAPTCHA Setting"
+msgstr ""
+
+#: vnex-extra.php:265
+msgid "Redirect 404 Error Page to Homepage"
+msgstr ""
+
+#: vnex-extra.php:450
+msgid "Remove admin bar & donate WPVN Team"
+msgstr ""
+
+#: vnex-extra.php:340
+msgid "Remove All Dashboard"
+msgstr ""
+
+#: vnex-extra.php:296
+msgid "Remove Logo / Version / Help"
+msgstr ""
+
+#: vnex-extra.php:308
+msgid "Remove Menu & Disable the theme/plugin editor in Admin"
+msgstr ""
+
+#: vnex-extra.php:259
+msgid "Remove the '/category/' from your permalinks"
+msgstr ""
+
+#: vnex-extra.php:302
+msgid "Remove unnecessary links from wp_head?"
+msgstr ""
+
+#: vnex-extra.php:134
+msgid "Restrict user to copy content & disable mouse right click"
+msgstr ""
+
+#: vnex-extra.php:88
+msgid "Security"
+msgstr ""
+
+#: vnex-extra.php:208
+msgid "SEO Images"
+msgstr ""
+
+#: vnex-extra.php:158
+msgid "Set how many revisions you want to keep"
+msgstr ""
+
+#: vnex-extra.php:320
+msgid "Set your name"
+msgstr ""
+
+#: vnex-extra.php:127
+msgid "Simple clone widget plugin add a Clone link of every widget"
+msgstr ""
+
+#: vnex-extra.php:196
+msgid "Slug (Ex: image.jpg)"
+msgstr ""
+
+#: vnex-extra.php:197
+msgid "Slug and ID (Ex: image-id.jpg)"
+msgstr ""
+
+#: vnex-extra.php:370
+msgid "SMTP Gmail"
+msgstr ""
+
+#: vnex-extra.php:368
+msgid "SMTP Other"
+msgstr ""
+
+#: vnex-extra.php:364
+msgid "SMTP Setting"
+msgstr ""
+
+#: vnex-extra.php:372
+msgid "SMTP Yandex"
+msgstr ""
+
+#: vnex-extra.php:383
+msgid "SSL"
+msgstr ""
+
+#: vnex-extra.php:434
+msgid "TABLETS AND DOWN (MAX-WIDTH)"
+msgstr ""
+
+#: vnex-extra.php:379
+msgid ""
+"The encryption which will be used when sending an email (recommended: TLS)."
+msgstr ""
+
+#: vnex-extra.php:377
+msgid ""
+"The port which will be used when sending an email (587/465/25). If you "
+"choose TLS it should be set to 587. For SSL use port 465 instead."
+msgstr ""
+
+#: vnex-extra.php:375
+msgid ""
+"The SMTP server which will be used to send email. For example: smtp.gmail.com"
+msgstr ""
+
+#: vnex-extra.php:456
+msgid "They will be redirected to home page."
+msgstr ""
+
+#: vnex-extra.php:328
+msgid "This could cause security issues and can be exploited by hackers"
+msgstr ""
+
+#: vnex-extra.php:382
+msgid "TLS"
+msgstr ""
+
+#: inc/login-slug.php:100
+#, php-format
+msgid "To set a networkwide default, go to %s."
+msgstr ""
+
+#: vnex-extra.php:475
+msgid "VIP Member"
+msgstr ""
+
+#: vnex-extra.php:105
+msgid ""
+"We removed WordPress’s default editor useless controls and added more useful "
+"controls."
+msgstr ""
+
+#: vnex-extra.php:462
+msgid "Who can access this plugin"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Extra"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPVN Team"
+msgstr ""
+
+#: inc/login-slug.php:136
+msgid "You must log in to access the admin area."
+msgstr ""
+
+#: inc/auto-resize-image.php:11
+msgid "Your picture is too large. It has to be smaller than "
+msgstr ""
+
+#: vnex-extra.php:70
+msgid "✅ Momo: 0907671900"
+msgstr ""
+
+#: vnex-extra.php:70
+msgid "✅ Paypal"
+msgstr ""
+
+#: vnex-extra-aio.php:434
+msgid "❤ Donate WP Extra"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"❤ This is a simple and perfect tool to use as your website’s functionality "
+"plugin. Awesome !!!"
+msgstr ""
+
+#: vnex-extra.php:247
+msgid "💡 Note: Click"
+msgstr ""
+
+#: vnex-extra.php:362
+msgid "💡 Note: Test by"
+msgstr ""

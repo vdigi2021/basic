@@ -1,0 +1,291 @@
+.wp-core-ui .button-red {
+    background: #e14d43;
+    border-color: #d02c21 #ba281e #ba281e;
+    color: #fff;
+    box-shadow: 0 1px 0 #ba281e;
+    text-shadow: 0 -1px 1px #ba281e, 1px 0 1px #ba281e, 0 1px 1px #ba281e, -1px 0 1px #ba281e;
+}
+.wp-core-ui .button-red[disabled]{
+	color:#d1c8c7!important;
+	background:#d92e23!important;
+	border-color:#ba281e!important;
+	text-shadow:none!important
+}
+.wp-core-ui .button-red.focus, .wp-core-ui .button-red.hover, .wp-core-ui .button-red:focus, .wp-core-ui .button-red:hover {
+    background: #d92e23;
+    border-color: #ba281e;
+    color: #fff;
+}
+.vnex_container {
+	background-color:#66BB6A;
+	z-index: 100;
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 10px 10px 0;
+	display: none;
+	}
+.vnex_container input {
+	background: #4CAF50 !important;
+	margin: 10px auto !important; 
+	display: block !important;
+	border-color: #4CAF50 #4CAF50 #4CAF50 !important; 
+	box-shadow: 0 1px 0 #4CAF50 !important;
+	text-shadow: none !important;
+}
+.wpextra sup {
+	background: #e14d43; 
+	border-radius:2px; 
+	padding: 2px 4px; 
+	font-size:8px; 
+	color: #fff;
+}
+.wpextra table tr td:first-child {
+	font-weight: 500;
+}
+  
+.wpextra small {
+	font-style:italic;
+	font-weight: 400 !important;
+}
+.clear-option {
+	float:right; 
+	margin-right: 10px;
+}
+i.mce-i-icon {
+    font: 400 20px/1 dashicons;
+    padding: 0;
+    vertical-align: top;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: -2px;
+    padding-right: 2px
+}
+.vnex-stars { 
+	width: 100px; 
+	margin: 0 auto 0 auto; 
+	color: #ffb900; 
+}
+.vnex-stars a:hover { 
+	color: #ffb900;
+}
+.vnex-review-details a { 
+	color: #666; 
+	text-decoration: none; 
+}
+.vnex-review-avatar { 
+	width: 65px; 
+	height: auto; 
+	float: left; 
+	margin-right: 15px; 
+	margin-left: 20px; 
+}
+.vnex-review-author { 
+	display: block; 
+	padding-top: 12px; 
+}
+.vnex-switch.vnex-switch-default {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 40px;
+	height: 24px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.vnex-switch.vnex-switch-default .vnex-switch-input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.vnex-switch.vnex-switch-default .vnex-switch-label {
+	position: relative;
+	display: block;
+	height: inherit;
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: #fff;
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+	-webkit-transition: .15s ease-out;
+	transition: .15s ease-out;
+	-webkit-transition-property: opacity background;
+	transition-property: opacity background;
+}
+.vnex-switch-danger > .vnex-switch-input:checked ~ .vnex-switch-label {
+	background: #ff5454 !important;
+	border-color: #ff2121;
+}
+.vnex-switch.vnex-switch-default .vnex-switch-handle {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border: 1px solid #cccccc;
+	border-radius: 1px;
+	-webkit-transition: left .15s ease-out;
+	transition: left .15s ease-out;
+}
+.vnex-switch.vnex-switch-default .vnex-switch-input:checked ~ .vnex-switch-handle {	left: 18px;}
+.vnex-switch-danger > .vnex-switch-input:checked ~ .vnex-switch-handle {
+	border-color: #ff2121;
+}
+.vnex-switch.vnex-switch-text {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 50px;
+	height: 24px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.vnex-switch.vnex-switch-text .vnex-switch-input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.vnex-switch.vnex-switch-text .vnex-switch-label {
+	position: relative;
+	display: block;
+	height: inherit;
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: #eee;
+	border-radius: 15px;
+	-webkit-transition: .15s ease-out;
+	transition: .15s ease-out;
+	-webkit-transition-property: opacity background;
+	transition-property: opacity background;
+}
+.vnex-switch-danger > .vnex-switch-input:checked ~ .vnex-switch-label {
+	background: #069de3 !important;
+	border-color: #0392d4;
+}
+.vnex-switch.vnex-switch-text .vnex-switch-label:after, .vnex-switch.vnex-switch-text .vnex-switch-label:before {
+	position: absolute;
+	top: 50%;
+	width: 50%;
+	margin-top: -.5em;
+	line-height: 1;
+	text-align: center;
+	-webkit-transition: inherit;
+	transition: inherit;
+}
+.vnex-switch.vnex-switch-text .vnex-switch-label:before {
+	right: 1px;
+	color: #000;
+	content: attr(data-off);
+}
+.vnex-switch.vnex-switch-text .vnex-switch-input:checked ~ .vnex-switch-label:before {opacity: 0;}
+.vnex-switch.vnex-switch-text .vnex-switch-label:after {
+	left: 1px;
+	color: #fff;
+	content: attr(data-on);
+	opacity: 0;
+}
+.vnex-switch.vnex-switch-text .vnex-switch-input:checked ~ .vnex-switch-label:after {opacity: 1;}
+.vnex-switch.vnex-switch-text .vnex-switch-handle {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border: 1px solid #cccccc;
+	border-radius: 50%;
+	-webkit-transition: left .15s ease-out;
+	transition: left .15s ease-out;
+}
+.vnex-switch.vnex-switch-text .vnex-switch-input:checked ~ .vnex-switch-handle {left: 27px;}
+.vnex-switch-danger > .vnex-switch-input:checked ~ .vnex-switch-handle {border-color: #0392d4;}
+#vnex-tabs .tab-checked {
+  display: none;
+}
+#vnex-tabs .tab {
+  -webkit-user-select: none;
+  padding: .6em .8em;
+  display: inline-block;
+  border-top: 2px solid transparent;
+  font-weight: 500;
+  font-size: 13px;
+  background: #E5E5E5;
+}
+#vnex-tabs .tab-checked:checked + .tab {
+  color: #000;
+  border-color: #069de3;
+  background: #DDD;
+}
+#vnex-tabs .tab-panel {
+  display: none;
+  box-sizing: border-box;
+}
+#vnex-tabs #tab1:checked ~ .tab-panels .panel1, #vnex-tabs #tab2:checked ~ .tab-panels .panel2, #vnex-tabs #tab3:checked ~ .tab-panels .panel3, #vnex-tabs #tab4:checked ~ .tab-panels .panel4, #vnex-tabs #tab5:checked ~ .tab-panels .panel5, #vnex-tabs #tab6:checked ~ .tab-panels .panel6, #vnex-tabs #tab7:checked ~ .tab-panels .panel7, #vnex-tabs #tab8:checked ~ .tab-panels .panel8, #vnex-tabs #tab9:checked ~ .tab-panels .panel9, #vnex-tabs #tab10:checked ~ .tab-panels .panel10 {display: block;}
+.vnex-premium {background: #ff2200 !important; border-color: #ff2200 !important; color: #fff !important;}
+.vnex-key {background: #069de3 !important; border-color: #069de3 !important; color: #fff !important;}
+.vnex-clone-widgets .clone-widget-action { float: right; }
+.vnex-clone-widgets .widget-title h4 { padding-left: 0; }
+.vnex-clone-widgets a.clone-widget {
+	position: absolute;
+	right:40px;
+	border: none;
+	background: none;
+	display: block;
+	padding: 0;
+	text-align: right;
+	text-decoration: none !important;
+	margin-top: 12px; 
+	cursor: pointer; 
+	z-index: 999;
+}
+.vnex-clone-widgets a.clone-widget:hover { color: #a00; }
+.vnex-clone-widgets a.clone-widget::after { font-family: "dashicons"; content: "\f132"; }
+.vnex-clone-widgets:hover a.clone-widget { margin-left: 0; }
+.item-type {
+    margin-right: 70px !important;
+}
+.item-clone-this, .item-delete-this {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 30px;
+    height: 40px;
+    outline: 0;
+}
+.item-clone-this {
+    right: 40px;
+}
+.item-delete-this {
+    right: 10px;
+}
+.nav-menus-php .item-edit {
+    background: #F1F1F1;
+}
+.item-clone-this:before, .item-delete-this:before {
+    margin-top: 10px;
+    margin-left: 4px;
+    width: 20px;
+    border-radius: 50%;
+    text-indent: -1px;
+    font: normal 20px/1 dashicons;
+    speak: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+}
+.item-clone-this:before {
+    content: "\f105";
+}
+.item-delete-this:before {
+    content: "\f158";
+}

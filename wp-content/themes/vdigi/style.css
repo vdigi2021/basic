@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/*!
+
+Theme Name: WP Vdigi
+
+Theme URI: https://vdigi.vn
+
+Author: Dev Vdigi Corporation
+
+Author URI: https://vdigi.vn
+
+Description: "WP Vdigi" là 1 theme wordpress được phát triển và xây dựng bởi đội ngũ kỹ thuật của Vdigi. Theme được xây dựng dựa trên nền tảng là css boostraps 4 mới nhất. 
+
+Version: 1.0.1
+
+License: GNU General Public License v3 or later
+
+License URI: https://www.gnu.org/licenses/gpl.html
+
+Text Domain: WP Vdigi
+
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, two-columns, left-sidebar, right-sidebar, custom-colors, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, blog
+
+
+
+This theme, like WordPress, is licensed under the GPL.
+
+Use it to make something cool, have fun, and share what you've learned with others.
+
+
+
+WP Vdigi is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/fonts/roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("assets/fonts/roboto/Roboto-Bold.ttf");
+}
+
+:root {
+    --primary-color: #662d91;
+    --second-color: #414042;
+    --primary-font: "Roboto";
+    --second-font: "Roboto-Bold";
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--primary-font);
+    background-color: #fff;
+    font-size: 1.5rem;
+    color: #424242;
+    -ms-text-size-adjust: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+a,
+a:focus,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+img {
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}

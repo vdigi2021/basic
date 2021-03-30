@@ -1,0 +1,47 @@
+# BEGIN WordPress
+# Các nội dung nằm giữa "BEGIN WordPress" và "END WordPress" được tạo ra tự động, và chỉ nên được thay đổi thông qua các filter của WordPress. Mọi thay đổi tới thành phần này có thể sẽ bị mất và ghi đè.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /vdigi-basic/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /vdigi-basic/index.php [L]
+</IfModule>
+
+# END WordPress
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/html "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING ##
+
+# BEGIN Cache-Control Headers
+<ifModule mod_headers.c>
+    <filesMatch "\.(ico|jpe?g|png|gif|swf)$">
+        Header set Cache-Control "public"
+    </filesMatch>
+    <filesMatch "\.(css)$">
+        Header set Cache-Control "public"
+    </filesMatch>
+    <filesMatch "\.(js)$">
+        Header set Cache-Control "public"
+    </filesMatch>
+    <filesMatch "\.(x?html?|php)$">
+        Header set Cache-Control "public"
+    </filesMatch>
+</ifModule>
+# END Cache-Control Headers

@@ -1,0 +1,6 @@
+.postbox-container {
+    min-width: 100% !important;
+}
+.meta-box-sortables.ui-sortable.empty-container { 
+    display: none;
+}
